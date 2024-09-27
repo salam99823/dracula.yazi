@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Dracula Theme v1.2.5
+#
+# https://github.com/zenorocha/dracula-theme
+#
+# Copyright 2016, All rights reserved
+#
+# Code l
+  censed
+    nder the MIT lice
+    e
+# http://zenorocha.mit-license.org
+#
+# @author Zeno Roc
+     <hi@zenorocha.com>
+-->
+
+
+    DOCTYPE plist PUBLIC 
+    //Apple Compute
+    /DTD PLIST 1.0//EN" "http://www.a
+    le.com/DTDs/PropertyList
+    .0.dtd">
+<plist version="1.0">
+<d
+    t>
+	<key>name</key>
+    <string
+      acula<
+        ing>
+	<key>settings
+        y>
+	<a
+          
+		<dict>
+			<key>sett
+          /key>
+			<dict>
+				<key
+          ground</key>
+				<str
+          282a36</string>
+				<key
+          t</key>
+				<str
+          f8f8f0</string>
+				<key
+          ground</key>
+				<string
+          8f2</string>
+				<key>in
+          les</key>
+				<string>#3B3A32</str
+          				<key>lineHighlight</
+          				<string>#44475a</
+          g>
+				<key>selection</key
+          	<string>#44475a
+          ing>
+				<key>findHighligh
+          y>
+				<string>#effb7b</str
+          				<key>findHighlightFore
+          d</key>
+				<string>#000000<
+          ng>
+				<key>selectionBo
+          /key>
+				<string>#22
+          /string>
+				<key>active
+          </key>
+				<string>#9D55
+          /string>
+				<key>brackets
+          round</key>
+				<stri
+          8F8F2A5</string>
+				<key>bracketsOptions</key>
+				<string>under
+          /string>
+				<key>b
+          tContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions<
+            key>
+				<string>underline</string>
+				<key>tagsOptions</key>
+				<string>stippled_un
+            erline</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Comment</str
+            ng>
+			<key>scope
+          >
+			<string>comment
+          ing>
+			<key>settings</key
+          <dict>
+				<key>foreground
+          >
+				<string>#6272a4</s
+          >
+				<key>fontSt
+          key>
+				<string></string>
+          /dict>
+		</dict>
+		<d
+          			<key>name</key>
+			<str
+          tring</string>
+			<key
+          e</key>
+			<string>string<
+        ing>
+		
+      ey>sett
+      s</key
+        	<dict>
+				<ke
+        reground</key>
+				<string>#f1fa8c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name
+        y>
+			<string>Nu
+        </string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</
+          ey>
+			<dict>
+				<key>foreground</key>
+				<string>#bd93f9</string>
+			</dict>
+		</dict>
+
+          	<dict>
+			<key>name</key>
+			<string>Built-in constant</string>
+			<key>scope</key>
+          			<string>constant.langu
+        /string>
+			<key>se
+        gs</ke
+          	<dict>
+				<key>for
+          nd</key>
+				<string>#b
+        9</stri
+      
+			</d
+      >
+		</
+        >
+		<dict>
+			<
+        name</key>
+			<string>Us
+        efined constant<
+        ing>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
+			<k
+        ettings</key>
+			<d
+        
+				<
+          oreground</key>
+				<
+          g>#bd93f9</string>
+			</
+        >
+		</d
+      >
+		<di
+      
+			<k
+        ame</key>
+			<s
+        g>Variable</string>
+			<key>
+        e</key>
+			<stri
+        ariable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<st
+          ing></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Rub
+          's @variable</string>
+			<key>scope</key>
+			<string>variable.other.read
+          rite.instance</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></s
+        g>
+				<key>foregro
+        /key>
+
+          string>#ffb86c</strin
+          	</dict>
+		</dict>
+		<di
+        			<key
+      me</key
+      		<str
+        String interpol
+        n</string>
+			<key>scope</key>
+			<string>constan
+        aracter.escaped,
+        stant.character.escape, string source, string source.ruby</string>
+			<key>settings<
+          key>
+			<dict>
+				<key>fontStyle</key>
+			
+        ring></string>
+				
+        >foreg
+          </key>
+				<string>#f
+          </string>
+			</dict>
+		<
+        t>
+		<d
+      >
+			<k
+      name</
+        
+			<string>Key
+        </string>
+			<key>scope</key>
+			<string>keyword
+        ring>
+			<key>se
+        gs</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff79c6</string>
+
+          		</dict>
+		</dict>
+		<dict>
+			
+        >name</key>
+			<str
+        Storag
+          ring>
+			<key>scope<
+          
+			<string>stora
+          tring>
+			<key>settin
+          ey>
+			<dict>
+				<key>f
+        tyle</k
+      
+				<s
+      ng></s
+        g>
+				<key>for
+        und</key>
+				<string>#
+        c6</string>
+			<
+        t>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage type
+          /string>
+			<key>scope</key>
+			<string>
+        age.type</string>
+	
+        ey>set
+          </key>
+			<dict>
+				
+          fontStyle</key>
+				<str
+        italic<
+      ring>
+	
+      <key>f
+        round</key>
+			
+        ring>#8be9fd</string>
+		
+        ict>
+		</dict>
+	
+        ct>
+			<key>name</key>
+			<string>Class n
+        /string>
+			<key>sc
+        /key>
+
+          tring>entity.name.cla
+          tring>
+			<key>settings<
+        >
+			<d
+      >
+				<
+      >fontS
+        </key>
+				<str
+        underline</string>
+				<key>foregro
+        /key>
+				<strin
+        0fa7b</string>
+			</dict>
+		</dict>
+        dict>
+			<key>name<
+        >
+			<
+          g>Inherited class</st
+          
+			<key>scope</key>
+			
+        ing>ent
+      .other.
+      erited
+        ss</string>
+			
+        >settings</key>
+			<dict>
+			
+        y>fontStyle</key
+        		<string>italic underline</s
+        g>
+				<key>foregro
+        /key>
+
+          string>#50fa7b</strin
+          	</dict>
+		</dict>
+		<di
+        			<key
+      me</key
+      		<str
+        Function name</
+        ng>
+			<key>scope</key>
+			<string>entity.name.funct
+        /string>
+			<key
+        tings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></
+        ng>
+				<key>foregr
+        </key>
+          <string>#50fa7b</stri
+          		</dict>
+		</dict>
+		<d
+        
+			<ke
+      ame</ke
+      			<st
+        >Function argum
+        /string>
+			<key>scope</key>
+	
+        tring>variable.p
+        eter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>itali
+        tring>
+				<key>for
+        und</k
+          			<string>#ffb86c</s
+          >
+			</dict>
+		</dict>
+	
+        ct>
+			
+      y>name<
+      y>
+			
+        ing>Tag name</s
+        g>
+			<key>scope</key>
+
+        string>entity.na
+        ag</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle
+        y>
+				<string></st
+        >
+				
+          foreground</key>
+			
+          ing>#ff79c6</string>
+
+          dict>
+		</dict>
+		<di
+          		<key>name</key>
+			<st
+        >Tag at
+      bute</s
+      ng>
+		
+        y>scope</key>
+	
+        tring>entity.other.attribute-na
+        string>
+			<key>
+        ings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key
+          
+				<string>#50fa7b</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<st
+          ing>Library function</string>
+			<key>scope</key>
+			<string>support
+          function</string>
+			<key>settings</key>
+			<dict>
+				<key>
+          ontStyle</key>
+				<string></string>
+				<key>foreground</
+          ey>
+				<string>#8be9fd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>
+          ame</key>
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>support.c
+          nstant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				
+          string></string>
+				<key>foreground</key>
+				<string>#6be5fd</string>
+			<
+          dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library class&#x2f;type</str
+          ng>
+			<key>scope</key>
+		
+        ring>support.type, 
+        ort.cl
+          string>
+			<key>setti
+          key>
+			<dict>
+				<key>
+        Style</
+      >
+				<
+      ing> i
+        c</string>
+				
+        >foreground</key>
+				<string>#66d9ef</string>
+        </dict>
+		</dict
+        <dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope<
+          key>
+			<string>support.other.variable</string>
+			<key>set
+        s</key>
+			<dict>
+	
+        key>fo
+          le</key>
+				<string>
+          ing>
+			</dict>
+		</dict
+        <dict>
+
+      <key>na
+      /key>
+
+        string>Invalid<
+        ing>
+			<key>scope</key>
+        <string>invalid<
+        ing>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+		
+        tring>#ff79c6</stri
+        				<k
+          ntStyle</key>
+				<st
+          </string>
+				<key>foreg
+        d</key>
+      		<stri
+      #F8F8F
+        tring>
+			</dic
+        	</dict>
+		<dict>
+			<key>na
+        key>
+			<string>
+        lid deprecated</string>
+			<key>sc
+        /key>
+			<string>in
+        d.depr
+          d</string>
+			<key>se
+          s</key>
+			<dict>
+				<k
+        ackgrou
+      /key>
+	
+      <strin
+        d93f9</string>
+
+        <key>foreground</key>
+				<string>#F8F8F0</string>
+			</dict>
+		</dic
+        	<dict>
+			<key>
+        </key>
+			<string>JSON String</string>
+			<key>scope</key>
+			<string>meta.structu
+          e.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dic
+          >
+				<key>foreground</key>
+				<st
+        >#CFCFC2</string>
+	
+        dict>
+
+          ict>
+		<dict>
+			<key
+          </key>
+			<string>diff.h
+        r</stri
+      
+			<ke
+      cope</
+        
+			<string>met
+        ff, meta.diff.header
+        ring>
+			<key>se
+        gs</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6272a4</string>
+			</dict
+        </dict>
+		<dict>
+		
+        y>name
+          >
+			<string>diff.del
+          /string>
+			<key>scope</
+        
+			<st
+      g>marku
+      eleted
+        ring>
+			<key>s
+        ngs</key>
+			<dict>
+				<key>for
+        und</key>
+				<s
+        g>#ff79c6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+
+          		<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</st
+        >
+			<key>settings<
+        >
+			<
+          
+				<key>foreground<
+          
+				<string>#50fa7b</st
+        >
+			</
+      t>
+		</
+      t>
+		<
+        >
+			<key>name<
+        >
+			<string>diff.chan
+        /string>
+			<key
+        pe</key>
+			<string>markup.changed</string>
+			<key>settin
+        key>
+			<dict>
+				
+        >foreg
+          </key>
+				<string>#E
+          </string>
+			</dict>
+		<
+        t>
+		<d
+      >
+			<k
+      scope<
+        >
+			<string>co
+        nt.numeric.line-number.find-in-file
+        match</string>
+	
+        ey>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#bd93f9</string>
+			</dict>
+        /dict>
+		<dict>
+			
+        >scope
+          >
+			<string>entity.n
+          ilename</string>
+			<key
+        tings</
+      >
+			<d
+      >
+				
+        >foreground</ke
+        			<string>#E6DB74</string>
+			</dict>
+		<
+        t>
+		<dict>
+			<
+        scope</key>
+			<string>message.error</string>
+			<key>settings</key>
+			<dict>
+				<key>fo
+          eground</key>
+				<string>#F83333</string>
+			</dict>
+		</dict>
+		<dic
+          >
+			<key>name</key>
+			<string>JSON Punctuation</strin
+          >
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.json - meta.st
+          ucture.dictionary.value.json, punc
+        ion.definition.stri
+        nd.jso
+          eta.structure.diction
+          alue.json</string>
+			<k
+        ettings
+      ey>
+			
+      ct>
+		
+        ey>foreground</
+        
+				<string>#EEEEEE</string>
+			</dict>
+		</dict>
+        dict>
+			<key>na
+        key>
+			<string>JSON Structure</string>
+			<key>scope</key>
+			<string>meta.structure
+          dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+
+          		<dict>
+				<key>foreground</key>
+				<string>#8be9fd</string>
+		
+          </dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Stri
+          g</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.value.json string.quo
+          ed.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+		
+          	<string>#f1fa8c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<strin
+          >JSON: 6 deep</string>
+			<key>scope</key>
+			<string>meta meta meta meta me
+          a meta meta.structure.dictionary.value string</string>
+			<key>settings</key>
+			<dict>
+				<key>fo
+        ound</key>
+				<str
+        #50fa7
+          ring>
+			</dict>
+		</
+          
+		<dict>
+			<key>name</
+        
+			<st
+      g>JSON:
+      deep</
+        ng>
+			<key>sco
+        key>
+			<string>meta meta meta  ta meta meta
+        ucture.dictionar
+        lue string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<
+          tring>#ffb86c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<s
+          ring>JSON: 4 deep</string>
+			<key>scope</key>
+			<strin
+        ta meta meta meta m
+        struct
+          ictionary.value strin
+          ring>
+			<key>settings</
+        
+			<di
+      
+				<k
+      foregr
+        </key>
+				<str
+        #ff79c6</string>
+			</dict
+        </dict>
+		<dict>
+        <key>name</key>
+			<string>JSON: 3 deep</string>
+			<key>scope</key>
+			<strin
+        ta meta meta meta.s
+        ture.d
+          nary.value string</st
+          
+			<key>settings</key>
+
+        dict>
+	
+      <key>fo
+      round<
+        >
+				<string>#
+        f9</string>
+			</dict>
+		</dict>
+        dict>
+			<key>na
+        key>
+			<string>JSON: 2 deep</string>
+			<key>scope</key>
+	
+        tring>meta meta met
+        ructur
+          tionary.value string<
+          ng>
+			<key>settings</ke
+        		<dict
+      			<key
+      regrou
+        key>
+				<strin
+        0fa7b</string>
+			</dict>
+	
+        ict>
+		<dict>
+		
+        y>name</key>
+			<string>JSON:  1 deep</string>
+			<key>scope</key>
+			<string>meta me
+          a.structure.dictionary.value string</string>
+			<key>settings</key>
+			<
+          ict>
+				<key>foreground</key>
+				<string>#ffb86c</string>
+			</dict>
+		</dict>
+	</array>
+        ey>uuid</key>
+	<str
+        83091B
+          5E-4F0D-9275-0EC6CB08
+          /string>
+	<key>colorSpac
+        e</key>
+      string>
+      B</str
+        
+	<key>semantic
+        s</key>
+	<string>theme.dark.drac
+        /string>
+	<key>a
+        r</key>
+	<string>Zeno Rocha</string>
+</dict>
+</plist>

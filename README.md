@@ -3,18 +3,8 @@
 </div>
 
 <h3 align="center">
-	Example Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
+	🧛‍♂️ Dracula Flavor for <a href="https://github.com/sxyazi/yazi">Yazi</a>
 </h3>
-
-## Cooking up a new flavor
-
-> [!NOTE]
-> Please remove this section from your README before publishing.
-
-1. [x] Fork this repository and rename it to `your-flavor-name.yazi`.
-2. [ ] Copy the **parts you need to customize** from the [default theme.toml](https://github.com/sxyazi/yazi/blob/main/yazi-config/preset/theme.toml) as `./flavor.toml`, and change them to meet your preferences.
-3. [ ] Find a `.tmTheme` file on GitHub that matches the color of your flavor, copy it and it's license file as `./tmtheme.xml`, and `LICENSE-tmtheme`.
-4. [ ] Modify the content and preview image in the README to fit your flavor.
 
 ## 👀 Preview
 
@@ -25,7 +15,7 @@
 <!-- Please replace "username/example" with your repository name. -->
 
 ```bash
-ya pack -a username/example
+ya pack -a salam99823/dracula
 ```
 
 ## ⚙️ Usage
@@ -36,7 +26,7 @@ Add the these lines to your `theme.toml` configuration file to use it:
 
 ```toml
 [flavor]
-use = "example"
+use = "dracula"
 ```
 
 ## 📜 License
